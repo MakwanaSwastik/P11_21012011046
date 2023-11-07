@@ -1,5 +1,7 @@
-# Android SQLite and JSON Data Retrieval App
+# Practical 11 -Android SQLite and JSON Data Retrieval App
 
+- Submitted By: MAKWANA SWASTIK PRAVIN
+- Enrollment number: 21012011046
 ## Overview
 
 This Android application demonstrates how to create an app that fetches data from a JSON source, stores it in a SQLite database, and displays it in a RecyclerView. The application is designed to perform the following tasks:
@@ -26,36 +28,24 @@ This Android application demonstrates how to create an app that fetches data fro
 
 6. **MapsActivity.kt**: An activity that displays a person's location on Google Maps using the latitude and longitude data stored in the SQLite database.
 
-## Usage
+## Files Link
 
-To use this code in your Android project, you can follow these steps:
-
-1. Copy the code from the corresponding files in your repository:
-
-   - `DatabaseHelper.kt`
-   - `HttpRequest.kt`
+   - [DatabaseHelper.kt](app/src/main/java/com/swastik/mad_practical_11_21012011046/DatabaseHelper.kt)
+   - [HttpRequest.kt](app/src/main/java/com/swastik/mad_practical_11_21012011046/HttpRequest.kt)
    - [MainActivity.kt](app/src/main/java/com/swastik/mad_practical_11_21012011046/MainActivity.kt)
-   - `MapsActivity.kt`
-   - `Person.kt`
-   - `PersonAdapter.kt`
-   - `activity_main.xml`
-   - `activity_maps.xml`
-   - `person_item.xml`
-   - `main_menu.xml`
+   - [MapsActivity.kt](app/src/main/java/com/swastik/mad_practical_11_21012011046/MapsActivity.kt)
+   - [Person.kt](app/src/main/java/com/swastik/mad_practical_11_21012011046/Person.kt)
+   - [PersonAdapter.kt](app/src/main/java/com/swastik/mad_practical_11_21012011046/PersonAdapter.kt)
+   - [activity_main.xml](https://github.com/MakwanaSwastik/P11_21012011046/blob/master/app/src/main/res/layout/activity_main.xml)
+   - [activity_maps.xml](https://github.com/MakwanaSwastik/P11_21012011046/blob/master/app/src/main/res/layout/activity_maps.xml)
+   - [person_item.xml](https://github.com/MakwanaSwastik/P11_21012011046/blob/master/app/src/main/res/layout/person_item.xml)
+   - [main_menu.xml](https://github.com/MakwanaSwastik/P11_21012011046/blob/master/app/src/main/res/menu/main_menu.xml)
+     
+# ScreenShots
+![ScreenShot 1](S1.png)
+![ScreenShot 2](S2.png)
+![ScreenShot 3](S3.png)
+![ScreenShot 4](S4.png)
 
-2. Modify the code as needed for your project and import any required libraries.
 
-3. Ensure that you have the necessary permissions and dependencies set up in your AndroidManifest.xml.
 
-4. Run and test the application on an Android emulator or device.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- This project is based on a practical exercise from a Mobile Application Development course.
-- Special thanks to the Android community for their valuable resources and contributions.
-
-Feel free to customize this README according to your project's needs. You can include installation instructions, usage examples, and other relevant information.
